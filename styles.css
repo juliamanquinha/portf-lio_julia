@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(250, 244, 244);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    width: 500px;
+    height: 400px;
+    
+}
+
+#perfil{
+    width: 40%;
+    height: 50%;
+}
+
+hr{
+    border: 1px solid;
+    border-color: rgb(198, 209, 231);
+    width: 30%;
+}
+
+section{
+    border: 1px solid;
+    border-color: rgb(124, 180, 194);
+    padding: 5%;
+    margin: 2%;
+}
+
+.ladoalado{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.ladoalado2{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.menu{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    gap: 10px;
+}
+ 
+.menu:hover{
+    color: rgb(122, 197, 206);
+    font-size: 18px;
+}
